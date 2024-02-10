@@ -1,6 +1,6 @@
 import React from 'react'
 
-function card({username, btnText = "Click me"}) {
+function card({username = "Name", btnText = "Click me"}) {
   return (
     <div className="relative h-[400px] w-[300px] rounded-md">
     <img
